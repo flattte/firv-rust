@@ -238,7 +238,7 @@ static KIND_TO_ATTRIBUTES: Lazy<FxHashMap<SyntaxKind, &[&str]>> = Lazy::new(|| {
             FN,
             attrs!(
                 item, linkable,
-                "cold", "ignore", "inline", "must_use", "panic_handler", "proc_macro",
+                "cold", "firv_harden","ignore", "inline", "must_use", "panic_handler", "proc_macro",
                 "proc_macro_derive", "proc_macro_attribute", "should_panic", "target_feature",
                 "test", "track_caller"
             ),
@@ -294,6 +294,7 @@ const ATTRIBUTES: &[AttrCompletion] = &[
         Some(r#"export_name = "${0:exported_symbol_name}""#),
     ),
     attr("feature(…)", Some("feature"), Some("feature(${0:flag})")).prefer_inner(),
+    attr("firv_harden", None, None),
     attr("forbid(…)", Some("forbid"), Some("forbid(${0:lint})")),
     attr("global_allocator", None, None),
     attr(r#"ignore = "…""#, Some("ignore"), Some(r#"ignore = "${0:reason}""#)),

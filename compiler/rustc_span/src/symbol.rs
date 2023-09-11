@@ -737,6 +737,7 @@ symbols! {
         field_init_shorthand,
         file,
         fill,
+        firv_harden, // FIRV Hardening flag
         flags,
         float,
         float_to_int_unchecked,

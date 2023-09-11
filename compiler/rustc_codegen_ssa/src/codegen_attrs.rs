@@ -433,6 +433,7 @@ fn codegen_fn_attrs(tcx: TyCtxt<'_>, did: LocalDefId) -> CodegenFnAttrs {
                     None
                 };
             }
+            sym::firv_harden => codegen_fn_attrs.flags |= CodegenFnAttrFlags::FIRV_HARDEN,
             _ => {}
         }
     }
