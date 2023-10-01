@@ -18,9 +18,15 @@ git submodule update --remote --init src/llvm-project
 ./x build library --target riscv64gc-unknown-none-elf
 ```
 
+or
+
+```
+./x build library --target riscv32imac-unknown-none-elf
+```
+
 ## Compile for RISC-V
 ```
-$(RUSTC) <src> --target=riscv64gc-unknown-none-elf
+$(RUSTC) <src> --target=riscv32imac-unknown-none-elf
 ```
 
 ## Resources
