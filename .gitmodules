@@ -32,9 +32,8 @@
 	shallow = true
 [submodule "src/llvm-project"]
 	path = src/llvm-project
-	url = https://github.com/firv-comp/firv-llvm-project.git
-	branch = firv
-	shallow = true
+	url = https://github.com/firv-comp/firv-rust-llvm-project.git
+	branch = firv-main
 [submodule "src/doc/embedded-book"]
 	path = src/doc/embedded-book
 	url = https://github.com/rust-embedded/book.git

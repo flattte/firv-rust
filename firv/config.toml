@@ -1,0 +1,8 @@
+# Includes one of the default files in src/bootstrap/defaults
+profile = "codegen"
+changelog-seen = 2
+
+[llvm]
+download-ci-llvm = false
+ninja = true
+targets = "RISCV;X86"

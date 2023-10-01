@@ -1,4 +1,3 @@
-
 # FIRV HARDEN
 
 Attribute with similar approach present: `#[cold]`
