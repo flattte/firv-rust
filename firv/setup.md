@@ -1,6 +1,15 @@
 # Firv Setup
 
-Use the `config.toml` from this directory as a base
+## Prerequisites
+
+* Ninja
+* Make
+* CMake
+* RISC-V GNU Toolchain 
+
+## Config
+
+Copy `firv/config.toml` to root of the repository (`config.toml`)
 
 ## LLVM Project fork setup
 ```
