@@ -18,6 +18,8 @@ Attribute with similar approach present: `#[cold]`
 * `compiler\rustc_feature\src\builtin_attrs.rs` => `BUILTIN_ATTRIBUTES`
     Declaration of builtin attribute
 
+### Changes for the support tools
+
 * `src\tools\rust-analyzer\crates\hir-def\src\attr\builtin.rs` => `INERT_ATTRIBUTES`
     Declaration of builtin attribute (why is that a copy of above?)
 
