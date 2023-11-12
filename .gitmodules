@@ -33,7 +33,7 @@
 [submodule "src/llvm-project"]
 	path = src/llvm-project
 	url = https://github.com/firv-comp/firv-rust-llvm-project.git
-	branch = firv/2023-10-01
+	branch = firv/2023-10-22
 [submodule "src/doc/embedded-book"]
 	path = src/doc/embedded-book
 	url = https://github.com/rust-embedded/book.git
