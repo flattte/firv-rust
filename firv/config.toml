@@ -5,4 +5,4 @@ changelog-seen = 2
 [llvm]
 download-ci-llvm = false
 ninja = true
-targets = "RISCV;X86"
+targets = "AArch64;ARM;RISCV;X86;"
